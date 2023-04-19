@@ -1,4 +1,4 @@
-const URL = "http://localhost:8080/3semstartcode";
+const URL = "http://localhost:8080/solobackend";
 
 function handleHttpErrors(res) {
  if (!res.ok) {
