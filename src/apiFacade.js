@@ -1,4 +1,6 @@
-const URL = "http://localhost:8080/solobackend";
+import {baseURL} from "./settings.js";
+
+const URL = baseURL;
 
 function handleHttpErrors(res) {
  if (!res.ok) {
